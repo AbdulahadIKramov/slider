@@ -17,7 +17,8 @@ Style.css
         
         .slick-slider .slick-prev {
             left: -30px;
-            font-size: 0;display: none;
+            font-size: 0;
+            opacity: 0;
             display: none;
         }
         
@@ -25,6 +26,7 @@ Style.css
             content: '<';
             line-height: 1;
             font-size: 25px;
+            opacity: 0;
         }
         
         
@@ -32,13 +34,14 @@ Style.css
         .slick-slider .slick-next {
             right: -30px;
             font-size: 0;
-            display: none;
+            opacity: 0;
         }
         
         .slick-slider .slick-next::after {
             content: '>';
             line-height: 1;
             font-size: 25px;
+            display: none;
         }
         
         
